@@ -1,0 +1,45 @@
+{
+  "name": "uspricestore",
+  "private": true,
+  "version": "0.1.0",
+  "author": "Syed",
+  "description": "A professional Amazon price comparison website for the US market built with React, Redux, and Tailwind CSS",
+  "scripts": {
+    "dev": "concurrently \"node server/index.js\" \"vite\"",
+    "server": "node server/index.js",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.0",
+    "@heroicons/react": "^2.1.5",
+    "@reduxjs/toolkit": "^2.3.0",
+    "autoprefixer": "^10.4.20",
+    "axios": "^1.7.7",
+    "chart.js": "^4.4.6",
+    "concurrently": "^7.6.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "fast-xml-parser": "^4.5.0",
+    "postcss": "^8.4.49",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.1.2",
+    "react-router-dom": "^6.28.0",
+    "tailwindcss": "^3.4.15"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.56",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "vite": "^5.1.4"
+  }
+}
